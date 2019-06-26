@@ -85,7 +85,7 @@ ghost install --no-setup
 ghost install --no-start
 
 # Tells the process manager not to restart Ghost on server reboot
-ghost setup --no-enable
+ghost install --no-enable
 
 # Install without prompting (disable setup, or pass all required parameters as arguments)
 ghost install --no-prompt
