@@ -51,6 +51,10 @@ ghost install local
 # Install a local copy of Ghost v1 (Useful when upgrading from 0.x)
 ghost install local --v1
 
+# Install locally with a specific version
+# Note: --local flag only works with [version] parameter
+ghost install [version] --local
+
 ```
 
 ## Options
